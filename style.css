@@ -26,6 +26,15 @@ body {
     padding:0;
 }
 
+#credit {
+    position: fixed;
+    bottom: 0;
+    color: floralwhite;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+a{
+    color: floralwhite;
+}
 #title {
     color: white;
     font-size: 6em;
