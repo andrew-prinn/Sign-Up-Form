@@ -16,29 +16,32 @@
     <div id="form">
         <form action="example.com/path" method="post">
             <div>
-                <h1>subscribe</h1> 
                 <h2>Join our mailing list to find out about upcoming shows, new music, merch, and more.</h2>
             </div>
             <div id="contact-info">
                 <div id="contact-left">
-                    <label for="first_name">First name:</label>
-                    <input type="text" name="first_name" id="first-name" placeholder="First name">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" placeholder="choose a username">
                     <label for="email">EMAIL:</label>
                     <input type="email" name="email" id="email" placeholder="email@example.com" required>
                     <label for="user_password">Password:</label>
-                    <input type="password" id="user_password" name="password">
+                    <input type="password" id="user-password" name="password">
+                    <div>
+                        <input type="checkbox" name="subscribe" id="subscribe">Add me to the mailing list
+                    </div> 
                 </div>
                 <div id="contact-right">
-                    <label for="last_name">Last Name:</label>
-                    <input type="text" name="last_name" id="last-name" placeholder="Last name">
+                    <label for="first_name">First Name (Optional):</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="First name">
                     <label for="tel">Phone number:</label>
                     <input type="tel" name="phone" id="phone" placeholder="123-555-0000">
                     <label for="password">Confirm Password:</label>
-                    <input type="password" name="user_password" id="password">
+                    <input type="password" name="user-password" id="password-confirmation">
+                    <h5 id="message"></h5>
                 </div>
             </div>
             <div id="button-container">
-                <button type="submit">Create Account</button>
+                <button type="submit">Create account</button>
             </div>
 
         </form>
